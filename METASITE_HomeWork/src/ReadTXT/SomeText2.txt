@@ -1,0 +1,9 @@
+If you are new to programming in the Java language, have some experience with other languages, and are familiar with things
+ like displaying text or graphics or performing simple calculations, this tutorial could be for you. It walks through how to 
+ use the Java® 2 Platform software to create and run three common types of programs written for the Java platformapplications, 
+ applets, and servlets.
+
+You will learn how applications, applets, and servlets are similar and different, how to build a basic user interface that handles simple
+ end user input, how to read data from and write data to files and databases, and how to send and receive data over the network. This tutorial
+  is not comprehensive, but instead takes you on a straight and uncomplicated path through the more common programming features available in the 
+  Java platform.

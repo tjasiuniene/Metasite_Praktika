@@ -1,0 +1,47 @@
+Programa - zodziu skaiciavimo algoritmas
+
+1. Trumpai apie programa:
+
+	1.1. Programa moka nuskaityti N egzistuojanciu tekstiniu failu (angliskas alfabetas).
+	1.2. Programoje panaudotas file upload mechanizmas, galima uploadinti N failu.
+	1.3. Programa leidzia istrinti pasirinkta faila (siuo atveju tekstinis failas nera skaitomas).
+	1.4. Programa susckaiciuoja, kiek yra skaitomu failu.
+	1.5. Programa suskaiciuoja, kiek is viso yra zodziu per visus failus.
+	1.6. Programa suskaiciuoja, kiek kartu kartojasi per visus failus kiekvienas toks pats zodis. 
+	1.7. Rezultatas (zodis ir kartojimosi skaicius) irasomas i keturis failus:
+		1.7.1. zodziai prasidedantys raide A-G; 
+		1.7.2. zodziai prasidedantys raide H-N; 
+		1.7.3. zodziai prasidedantys raide O-U; 
+		1.7.4. zodziai prasidedantys raide V-Z.
+	1.8. ikelti failai ir rezultai pateikiami GUI - paspaudus "open file" mygtuka.
+
+
+2. Reikalavimu ispildymas:
+
+	2.1. Programa padaryta naudojant WindowsBuilder. 
+	2.2. Programuojant buvo panaudotos gijos (threads).
+	2.3. Java development framework - ECLIPSE IDE (Neon.2 Release (4.6.2)).
+
+
+3. Naudojimo instrukcijos:
+
+	3.1. Pagrinis programos paleidimo langas su pagrinemis funkcijomis (ikelti faila, atidaryti faila, istrinti, rodyti rezultatus, etc.)- "Results.java".
+		 SVARBU: pasirinkus mygtuka "Read again (Restart the program)" - rezultatai automatiskai istrinami is tekstiniu failu ir programa paleidziama is naujo.
+	3.2. Failu skaitymo, zodziu skaiciavimo ir irasymo algoritmo failas - "Launcher1.java".
+	3.3. Programoje panaudotos dvi gijos (threads). Threads run failai: "ReadThread1.java" ir "WriteThread1.java".
+	3.4. Tekstiniai failai patalpinti dviejuose aplankuose, t.y.:
+		3.4.1. ReadTXT - egzistuojantys tekstiniai failai.
+		3.4.2. WriteTXT - tekstiniai failai, kuriuose pateikiami rezultatai:
+			3.4.2.1. "ALL_Words" - visi zodziai per visus nuskaitytus tekstinius failus.
+			3.4.2.2. "WordsA_G" - zodziai prasidedantys raide A-G; 
+			3.4.2.3. "WordsH_N" - zodziai prasidedantys raide H-N; 
+			3.4.2.4. "WordsO_U" - zodziai prasidedantys raide O-U; 
+			3.4.2.5. "WordsV_Z" - zodziai prasidedantys raide V-Z; 
+	3.5. Programa ignoruoja skaicius. Pavyzdziui, jei tekstiniame faile programa rastu zodi "3D" - jis būtu traktuojamas tik kaip "d".
+
+			
+
+
+
+
+
